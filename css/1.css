@@ -1,0 +1,255 @@
+
+ 
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|PT+Serif:400,400i,700&display=swap');
+body{
+  background-color: #f5f5f5; 
+  margin: 0; padding: 0;
+}
+ 
+
+.head_fon{
+  background-color: #FFFFFF; 
+}
+
+#sitename{
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  font-style:bold;
+  font-weight: 700;
+  color: #eb3c00;
+}
+#myfirstwebpage{
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  font-style:italic;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+#key{
+  font-size: 14px;
+  color: #eb3c00;
+}
+#login{
+  font-family: 'PT Serif', serif;
+  width: 190px;
+  height: 45px;
+  font-size: 13px;
+  font-style:italic;
+  font-weight: 400;
+  color: #a4a4a4;
+  background-color: #FFFFFF;
+  border: 0;
+}
+#conatactme{
+  border: 0;
+  width: 190px;
+  height: 45px;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style:italic;
+  color: #FFFFFF;
+  background-color: #eb3c00;
+}
+
+
+/*_______________________МЕНЮ_________________________*/ 
+.bar_fon{
+  background-color: #282828;
+}
+.bar_button button{
+  border: 0;
+  margin: 0;
+  padding: 17px;
+  height: 72px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#home{
+  background-color: #eb3c00;
+}
+#about{
+  background: no-repeat 50% 50%;
+}
+#news{
+  background: no-repeat 50% 50%;
+}
+#portfolio{
+  background: no-repeat 50% 50%;
+}
+#blog{
+  background: no-repeat 50% 50%;
+}
+
+.search {  
+  background-color: #FFFFFF;	
+  width: 270px; /* Ширина поля с кнопкой */
+  border: 1px solid #000; /* Параметры рамки */
+  height: 40px;
+}
+input[type="search"]::-moz-placeholder {
+  color: #e0e0e0; /* Цвет подсказывающего текста */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+}
+input[type="search"]::-webkit-input-placeholder { 
+  color: #e0e0e0; /* Цвет подсказывающего текста */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+  }
+input[type="search"]:-ms-input-placeholder { 
+  color: #e0e0e0; /* Цвет подсказывающего текста */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+}
+input[type="search"]::-ms-input-placeholder { 
+  color: #e0e0e0; /* Цвет подсказывающего текста */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+}
+input[type="search"]::placeholder {
+  color: #e0e0e0; /* Цвет подсказывающего текста */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px;
+} 
+input[type="search" ] {
+  margin: 10px;
+  font-size: 14px;
+  border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  width: 80%; /* Ширина поля */
+  vertical-align: middle; /* Выравнивание по середине */
+}
+input[type="submit"] {  
+  color: #989a9e;
+  width: 10%; /* Ширина кнопки */
+  height: 17px; /* Высота кнопки */
+  border: none; /* Убираем рамку */
+  background: no-repeat 50% 50%; /* Параметры фона */
+}
+/*_________________________ЗАГОЛОВОК__________________*/
+
+#heading{
+  padding-top: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;  
+  color: #282828;
+}
+
+/*_________________________ОСНОВНОЙ ТЕКСТ__________________*/
+
+#body_text{  
+  padding-top: 0px;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #282828;
+}
+
+/*________________________СПИСОК__________________*/
+
+
+#list_h{  
+  padding-top: 25px;
+  font-family: 'PT Serif', serif;
+  font-style:bold;
+  font-weight: 700;
+  font-size: 18px;
+  color: #282828;
+}
+#list{
+  padding-top: 0px;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #282828;
+}
+/*________________________новости__________________*/
+
+.news_h{
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #eb3c00;
+  padding-bottom: 24px;
+}
+
+.news_1 img, .news_2 img, .news_3 img, .news_4 img, .news_5 img, .news_6 img{
+  width: 172px;
+  height: 115px;
+
+}
+.news_1, .news_2, .news_3, .news_4, .news_5, #ews_6 a:active{
+  font-size: 18px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-style:light;
+  font-weight: 300;
+}
+.news_1, .news_2, .news_3, .news_4, .news_5, #news_6 a:visited{
+  font-size: 18px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-style:light;
+  font-weight: 300;
+}
+.news_1 a, .news_2 a, .news_3 a, .news_4 a, .news_5 a, .news_6 a{
+  font-size: 18px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-style:light;
+  font-weight: 300;
+}
+
+/*________________________иконка прокрутки__________________*/
+
+.on_top{
+  text-align: right;
+  padding-right:25px;
+  padding-bottom: 55px;
+  padding-top: 160px;
+  padding-left: 90px; 
+  font-size: 16px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  font-style:light;
+  font-weight: 300;
+}
+#on_top a:active, #on_top a:visited, #on_top a{
+  text-align: top;
+  text-decoration: none;
+  font-size: 16px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  font-style:light;
+  font-weight: 300;
+
+}
+#on_top_1 a:active, #on_top_1 a:visited, #on_top_1 a{
+  text-align: button;
+  padding-left: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #282828;
+  font-family: 'Oswald', sans-serif;
+  font-style:light;
+  font-weight: 300;
+}
